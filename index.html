@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+   <title>Bluemart Online Shopping</title>
+<style>
+    body{
+      background-color:teal;
+    }
+    *{
+        margin:0;
+        padding:0;   
+    }   
+    form{
+      display:inline;
+    }
+    .logo{
+        background-color:seagreen;
+        overflow:hidden;
+        height:60px;
+    }
+    .logo a{
+        float:right;
+        text-decoration:none;
+        padding:20px;
+        font-family:arial;
+        font-size:16px;
+        color:white;
+    }
+    .logo a:hover{
+        background-color:mediumslateblue;
+    }
+    .logo img{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        cursor:pointer;
+    }
+    .first{
+        background-color:rgb(34, 3, 3);
+        overflow:hidden;
+    }
+    .first a{
+        
+        font-size:20px;
+      
+        text-decoration:none;
+        font-family:arial;
+        color:tomato;
+    }
+    .r{
+      float:right;
+      padding:4px;
+    }
+    .l{
+      padding:13px;
+      font-size:10px;
+      text-align:center;
+    }
+    .first a:hover{
+      background-color:snow;
+    }
+    form.search input[type=text] {
+      padding: 10px;
+      transform:translate(50px,-30px);
+      
+      font-size: 17px;
+      border: 1px solid grey;
+      width: 80%;
+      background: #f1f1f1;
+    }
+    
+    form.search button {
+      width: 5%;
+      transform:translate(45px,-30px);
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+    form.search button:hover {
+      background: #0b7dda;
+    }
+    
+    form.search::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .mySlides{
+        width:100%;
+        height:400px;
+        position:relative;
+       
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;   
+    }
+     .second{      
+      display:flex;
+      gap:70px;
+      background-color:#fff;      
+     }
+     .third ,.fourth , .fifth{      
+      display:flex;
+      gap:70px;
+      background-color:#fff;      
+     }
+    .seller{
+      overflow:hidden;
+      padding:0px;
+      text-align:center;
+    }
+    .products, .fashion , .electricals{
+        overflow:hidden;
+        padding:0px;
+        text-align:center;
+    }
+    .seller h1{
+      background-color:midnightblue;
+      overflow:hidden;
+      color:aliceblue;
+    }
+    .products ,.fashion ,.electricals{
+      text-align:center;
+      background-color:midnightblue;
+      color:white;
+    }
+    .price {
+      color:orangered;
+      font-size: 22px;
+    }
+    .offers {
+      color: red;
+      font-size: 22px;
+    } 
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    .card button:hover {
+      opacity: 0.7;
+    }
+    .watch,.smartphones ,.shoes, .Home{
+      text-align:center;
+      background-color:peachpuff;
+    }
+    .last h2{
+      background-color:sienna;
+      color:silver;
+      padding:10px;  
+    }
+    .last a{
+      text-decoration:none;
+    }
+    .last1{
+      background-color:teal;  
+    }
+    .last1 a{
+      text-decoration:none;
+      padding:10px;
+      color:white;
+    }
+</style>
+</head> 
+<body>  
+  <div id="ldiv"class="logo">
+      <a href="signin.html"><h2>Sign-in</h2></a>S
+      <a href="cart.html"><h2>Cart</h2></a>
+      <img src="images/bm logo.png"  width="182px">
+      <form class="search">
+      <input type="text" placeholder="Search.." name="search" style="margin:auto;max-width:700px;">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      </div>
+  <div class="first">
+    <a href="contact.html" class='r'>Contact Us</a>
+    <a href="index.html" class='r'>Home</a>
+  </div>
+  <div>
+    <img class="mySlides" src="images/slide3.jpg">
+    <img class="mySlides" src="images/slide2.jpg">
+    <img class="mySlides" src="images/slide1.jpg">
+  </div>
+  <div class="seller">
+    <h1>BEST OFFERS</h1>
+  </div>
+  <div class="second">
+      <div class="card">
+        <img src="images/cam.jpg" alt="nikon" style="width:100%">
+        <p><b>Nikon</b></p>
+        <p class="price">$10500.00<del><sub> $15000.00</sub></del></p>
+        <p class="offers">30% off</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/lap1.jpg" alt="nikon" style="width:100%;">
+        <p><b>Acer</b></p>
+        <p class="price">$15000.00<del><sub> $20000.00</sub></del></p>
+        <p class="offers">40% off</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/cam1.jpg" alt="nikon" style="width:100%">
+        <p><b>Sony</b></p>
+        <p class="price">$8000.00<del><sub> $10000.00</sub></del></p>
+        <p class="offers">20% off</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/lap.png" alt="nikon" style="width:100%">
+        <p><b>hp</b></p>
+        <p class="price">$15000.00<del><sub> $30000.00</sub></del></p>
+        <p class="offers">50% off</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+  </div>
+  <div class="products">
+    <h1>PRODUCTS</h1>
+  </div>
+  <div id="wdiv"class="watch">
+  <h1>The Hands of Time</h1>
+  <div class="third">
+    <div class="card">
+      <img src="images/watch.webp" alt="watch" style="width:75%">
+      <p><b>ShopAIS</b></p>
+      <p class="price">$1999.00</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card">
+      <img src="images/watch1.webp" alt="watch" style="width:100%;">
+      <p><b>Acnos</b></p>
+      <p class="price">$499.00</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card">
+      <img src="images/watch2.webp" alt="watch" style="width:50%">
+      <p><b>Rustet</b></p>
+      <p class="price">$599.00</p> 
+      <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card">
+      <img src="images/watch3.webp" alt="watch" style="width:50%">
+      <p><b>Fastrack</b></p>
+      <p class="price">$1999.00</p>      
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+  <div id="sdiv" class="Smartphones">
+    <h1>Smartphones</h1>
+    <div class="third">
+      <div class="card">
+        <img src="images/phone.webp" alt="watch" style="width:50%">
+        <p><b>Samsung Galaxy S20 Ultra (Cloud White, 12GB RAM, 128GB Storage)</b></p>
+        <p class="price">$97,999.00<del><sub>$1,03,000</sub></del></p>        
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/phone1.webp" alt="phone" style="width:50%;">
+        <p><b>OnePlus 8T 5G (Lunar Silver 12GB RAM, 256GB Storage)</b></p>
+        <p class="price">$41,999 .00<del><sub>$45,999.00</sub></del></p>        
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/phone2.webp" alt="phone" style="width:50%">
+        <p><b>Samsung Galaxy A70s (Prism Crush White, 8GB RAM, 128GB Storage)</b></p>
+        <p class="price">$23,990.00<del><sub>$33,100.00</sub></del></p>       
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="images/phone3.webp" alt="phone" style="width:50%">
+        <p><b>Redmi 9A (Nature Green, 2GB Ram, 32GB Storage) | 2GHz Octa-core Helio G25 Processor</b></p>
+        <p class="price">$6,799.00<del><sub>$8,499.00</sub></del></p>        
+        <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="shoes">
+      <h1>Men's Shoes</h1>
+      <div class="third">
+        <div class="card">
+          <img src="images/shoe.webp" alt="shoes" style="width:100%">
+          <p><b>Campus-Men's Oxyfit Running Shoes</b></p>
+          <p class="price">$999.00</p>          
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="images/shoe1.webp" alt="shoes" style="width:100%;">
+          <p><b>Unistar-Men's Running Shoes</b></p>
+          <p class="price">$499 .00</p>         
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="images/shoe2.webp" alt="shoes" style="width:100%">
+          <p><b>Bourge-Men's Vega Pearl-z2 Running Shoes</b></p>
+          <p class="price">$790.00</p>         
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="images/shoe3.webp" alt="shoes" style="width:100%">
+          <p><b>CLYMB-Outdoor Sports Running Shoes for Mens Boy</b></p>
+          <p class="price">$799.00</p>         
+          <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+  <div class="last">
+    <a href="#ldiv"><h2>Back To Top</h2></a>
+
+  </div>
+  <div class="last1">
+    <a href="login.html"><h2>Create Your Account</h2></a>
+      <a href="contact.html"><h2>Contact Us </h2></a>
+      <hr>
+      <br>      
+  </div>
+  <hr>
+</body>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+</html>
+

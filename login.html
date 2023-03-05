@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+ #tit {   
+   text-align: center;   color: red; 
+  } 
+ #dd {
+    margin-top: 10%;   margin-left: 40%;   margin-right: 40%;   border-style: solid;   
+} 
+#fm { 
+text-align: center; 
+} 
+input[type=email] 
+{  
+  padding: 12px 20px;   margin: 8px 0; 
+} 
+#bt {
+  padding: 12px 50px;   margin: 8px 0;   background-color: grey;   color: white;   font-size: 25px; 
+} 
+</style> 
+<body> 
+<div id="dd"> 
+<h3 id="tit">Sign-in</h3><br> 
+<form id="fm" action="fv1.htm"> 
+<input type="email" placeholder="Enter your email" id="em" required><br> 
+<small>Enter Correctly</small><br><br> 
+<input type="submit" value="Next" onclick="login()" id="bt"><br><br> 
+</form> 
+</div> 
+</body> 
+</html> 
+<script>  function login() 
+ 	{ 
+ 	 	var ed = document.getElementById("em").value;  	    	if(ed=='') 
+                { 
+ 	 	 	alert("please enter email."); 
+ 	 	} 
+ 	 	else if(ed!='sriramkannan1206@gmail.com') 
+                { 
+ 	 	 	alert("Incorrect email."); 
+ 	 	} 
+ 	 	else 
+ 	 	{ 
+       alert("Press OK"); 	 
+       window.location="C:\HTML\clg project\bluemart\ok.html"; 
+ 	 	} 	 	 	 
+ 	} 
+</script> 
