@@ -18,29 +18,41 @@ Project Structure
 The project is organized as follows:
 
 Copy code
+
 bluemart/
+
 ├── css/
 │   ├── style.css
 │   └── ...
+
 ├── js/
 │   ├── main.js
 │   └── ...
+
 ├── images/
 │   ├── bm logo.png
 │   └── ...
+
 ├── index.html
+
 ├── cart.html
+
 ├── signin.html
+
 ├── contact.html
-└── ...
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 Features
 Bluemart includes the following features:
-
+-
 Product browsing by category
+
 Product search functionality
+
 Add items to cart
+
 Checkout process with payment integration
+
 User authentication and account management
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 Known Issues
